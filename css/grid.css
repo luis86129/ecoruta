@@ -30,6 +30,7 @@
      display: grid;
      grid-template-rows: auto 1fr auto;
 }
+
 /* Actividad 3: estructura y pie */
 
 .contenedor {
@@ -50,5 +51,10 @@
 
 /* Actividad 4: galería */
 
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
 
 /* Actividad 5: adaptación a pantallas pequeñas */
